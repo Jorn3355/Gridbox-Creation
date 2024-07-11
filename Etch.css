@@ -1,0 +1,17 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.container {
+    height: 700px;
+    width: 700px;
+    border: 1px solid #000;
+}
+
+#length {
+    margin: 0 auto;
+}
