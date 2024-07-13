@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -7,11 +13,28 @@ body {
 }
 
 .container {
-    height: 700px;
-    width: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 40rem;
+    width: 40rem;
     border: 1px solid #000;
 }
 
-#length {
-    margin: 0 auto;
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin-top: 1%;
 }
+
+.active {
+    background: black;
+}
+
+.box {
+    border: 1px solid #000;
+}
+
+
+
